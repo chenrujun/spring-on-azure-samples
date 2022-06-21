@@ -7,80 +7,126 @@
 
 If you have any questions, you can ask for help by [creating a new issue](https://github.com/chenrujun/spring-on-azure-samples/issues/new).
 
+# Azure Product Related Samples 
+
 ## Analytics
 
 ### Event Hubs
- - [spring-on-azure-samples-event-hubs](.)
+ - Produce and consume message by Event Hubs in Spring Boot application. [Azure-Samples/azure-spring-boot-samples/eventhubs](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs)
 
 ## Compute
 
-### Azure Kubernetes Service (AKS)
-(TODO: Determine whether keep the duplicated item. `AKS` exists in both `Compute` and `Containers`. Same to other product like `App Service`.)
-- [spring-on-azure-samples-azure-kubernetes-service](.)
-
-### App Service
- - [spring-on-azure-samples-app-service](.)
-
-### Azure Functions
- - [spring-on-azure-samples-azure-functions](.)
-
 ### Azure Spring Apps
- - [spring-on-azure-samples-azure-spring-apps](.)
+ - Deploying Spring Boot apps using Azure Spring Apps and Spring Cloud Gateway. [Azure-Samples/animal-rescue](https://github.com/Azure-Samples/animal-rescue)
+ - Managing Azure Spring Apps in Java [Azure-Samples/app-platform-java-manage-spring-cloud](https://github.com/Azure-Samples/app-platform-java-manage-spring-cloud)
+ - Automated blue-green deployment for Azure Spring Apps. [Azure-Samples/azure-spring-cloud-blue-green](https://github.com/Azure-Samples/azure-spring-cloud-blue-green)
+ - Various features in Azure Spring Cloud. [Azure-Samples/Azure-Spring-Cloud-Samples](https://github.com/Azure-Samples/Azure-Spring-Cloud-Samples)
+ - Using Service Connector to connect to Apache Kafka in Spring Boot application deployed in Azure Spring Apps. [Azure-Samples/serviceconnector-springcloud-confluent-springboot](https://github.com/Azure-Samples/serviceconnector-springcloud-confluent-springboot)
+ - Using Service Connector to Azure Database for My SQL in Spring Boot application deployed in Azure Spring Apps. [Azure-Samples/serviceconnector-springcloud-mysql-springboot](https://github.com/Azure-Samples/serviceconnector-springcloud-mysql-springboot)
+ - Secure Communications Using End-to-end TLS/SSL in Azure Spring Apps. [Azure-Samples/spring-boot-secure-communications-using-end-to-end-tls-ssl](https://github.com/Azure-Samples/spring-boot-secure-communications-using-end-to-end-tls-ssl)
+ - Deploy Microservices and Spring Cloud Gateway using Azure Spring Cloud and Redis Cache. [Azure-Samples/spring-cloud-gateway](https://github.com/Azure-Samples/spring-cloud-gateway)
+ - Azure Spring Apps training. [microsoft/azure-spring-cloud-training](https://github.com/microsoft/azure-spring-cloud-training)
+ - Migrating Spring Applications to Azure Spring Apps. [microsoft/migrate-spring-apps-to-azure-training](https://github.com/microsoft/migrate-spring-apps-to-azure-training)
+
 
 ## Containers
 
-### App Configuration
- - [spring-on-azure-samples-app-configuration](.)
-
 ### Azure Kubernetes Service (AKS) 
-(TODO: Determine whether keep the duplicated item. `AKS` exists in both `Compute` and `Containers`)
- - [spring-on-azure-samples-azure-kubernetes-service](.)
+ - Accessing Azure Cosmos DB in Spring Boot application deployed in Azure Kubernetes Service. [Azure-Samples/cosmosdb-springboot-aks](https://github.com/Azure-Samples/cosmosdb-springboot-aks)
 
-### Azure Functions
- - [spring-on-azure-samples-azure-functions](.)
+### Azure Container Instances
+ - Deploying Spring application to Azure Container Instances. [Azure/spring-boot-container-quickstart](https://github.com/Azure/spring-boot-container-quickstart)
 
 ## Databases
 
 ### Azure Cosmos DB
- - [spring-on-azure-samples-azure-cosmos-db](.)
+ - Using Azure Cosmos DB in Spring Boot application. [Azure-Samples/azure-spring-boot-samples](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/cosmos)
+ - Accessing Azure Cosmos DB by Java SQL API modules. [Azure-Samples/azure-spring-data-cosmos-java-sql-api-getting-started](https://github.com/Azure-Samples/azure-spring-data-cosmos-java-sql-api-getting-started)
+ - Accessing Azure Cosmos DB by Spring Data Cassandra. [Azure-Samples/spring-data-cassandra-on-azure](https://github.com/Azure-Samples/spring-data-cassandra-on-azure) 
+ - Accessing Azure Cosmos DB by Spring Data Cosmos.
+   - [Azure-Samples/spring-data-cosmosdb-e2e-sample](https://github.com/Azure-Samples/spring-data-cosmosdb-e2e-sample/blob/main/core/pom.xml)
+   - [microsoft/spring-todo-app](https://github.com/microsoft/spring-todo-app)
+   - [microsoft/todo-app-java-on-azure](https://github.com/microsoft/todo-app-java-on-azure)
 
 ### Azure Database for MySQL
- - [spring-on-azure-samples-azure-database-for-mysql](.)
+ - Accessing Azure Database for MySQL by Spring Data JDBC. [Azure-Samples/spring-data-jdbc-on-azure](https://github.com/Azure-Samples/spring-data-jdbc-on-azure)
+ - Accessing Azure Database for MySQL by Spring Data Jpa. [Azure-Samples/spring-data-jpa-on-azure](https://github.com/Azure-Samples/spring-data-jpa-on-azure)
 
 ### Azure Database for PostgreSQL
- - [spring-on-azure-samples-azure-database-for-postgres](.)
+ - Accessing Azure Database for PostgreSQL by Spring Data JDBC. [Azure-Samples/spring-data-jdbc-on-azure](https://github.com/Azure-Samples/spring-data-jdbc-on-azure)
+ - Accessing Azure Database for PostgreSQL by Spring Data Jpa. [Azure-Samples/spring-data-jpa-on-azure](https://github.com/Azure-Samples/spring-data-jpa-on-azure)
 
 ### Azure Cache for Redis
- - [spring-on-azure-samples-azure-cache-for-redis](.) (TODO: Add `brewdis` link into this repository)
- - [brewdis](.)
+ - Caching data in Spring Boot application by Azure Cache for Redis. [Azure-Samples/azure-spring-boot-samples/cache](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/cache/spring-cloud-azure-starter/spring-cloud-azure-sample-cache)
+ - Using RedisSearch feature provided by Azure Cache for Redis in Spring Boot app, and deploy app to Azure Spring Apps. [Azure-Samples/brewdis](https://github.com/Azure-Samples/brewdis)
 
 ### Azure SQL
- - [spring-on-azure-samples-azure-sql](.)
+ - Accessing Azure SQL by Spring Data JDBC. [Azure-Samples/spring-data-jdbc-on-azure](https://github.com/Azure-Samples/spring-data-jdbc-on-azure)
+ - Accessing Azure SQL by Spring Data JPA. [Azure-Samples/spring-data-jpa-on-azure](https://github.com/Azure-Samples/spring-data-jpa-on-azure)
+
+## Developer tools
+
+### App Configuration
+- Configure, store, and retrieve parameters and settings by Azure App Configuration in Spring Boot application. [Azure-Samples/azure-spring-boot-samples/appconfiguration](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/appconfiguration)
 
 ## Identity
 
 ### Azure Active Directory (Azure AD)
- - [spring-on-azure-samples-azure-ad](.)
+ - Login Spring Boot web application by Microsoft school or work account. 
+   - [Azure-Samples/azure-spring-boot-samples/.../aad-web-application-and-resource-server](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/aad/spring-cloud-azure-starter-active-directory/aad-web-appliction-and-resource-server)
+   - [Azure-Samples/ms-identity-java-spring-tutorial/1-Authentication](https://github.com/Azure-Samples/ms-identity-java-spring-tutorial/tree/main/1-Authentication)
+ - Access control by App rules in Spring Boot web application after logging by Microsoft school or work account.
+   - [Azure-Samples/ms-identity-docs-code-java/.../webapp](https://github.com/Azure-Samples/ms-identity-docs-code-java/tree/main/webapp)
+   - [Azure-Samples/azure-spring-boot-samples/.../aad-web-application-and-resource-server](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/aad/spring-cloud-azure-starter-active-directory/aad-web-appliction-and-resource-server)
+   - [Azure-Samples/ms-identity-java-spring-tutorial/.../3-Authorization-II](https://github.com/Azure-Samples/ms-identity-java-spring-tutorial/tree/main/3-Authorization-II)
+ - Protect web api by working as OAuth2 resource server protected Azure Active Directory. [Azure-Samples/azure-spring-boot-samples/.../aad-web-application-and-resource-server](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/aad/spring-cloud-azure-starter-active-directory/aad-web-appliction-and-resource-server)
+ - Access control in web api protected by Azure Active Directory. [Azure-Samples/azure-spring-boot-samples/.../aad-web-application-and-resource-server](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/aad/spring-cloud-azure-starter-active-directory/aad-web-appliction-and-resource-server)
+ - Access OAuth2 resource server protected by Azure Active Directory.
+   - [Azure-Samples/azure-spring-boot-samples/.../aad-web-application-and-resource-server](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/aad/spring-cloud-azure-starter-active-directory/aad-web-appliction-and-resource-server)
+   - [Azure-Samples/ms-identity-docs-code-java/.../access-protected-api](https://github.com/Azure-Samples/ms-identity-docs-code-java/tree/main/access-protected-api)
+   - [Azure-Samples/ms-identity-docs-code-java/.../access-protected-api-obo](https://github.com/Azure-Samples/ms-identity-docs-code-java/tree/main/access-protected-api-obo)
+   - [Azure-Samples/ms-identity-java-spring-tutorial/.../call-graph](https://github.com/Azure-Samples/ms-identity-java-spring-tutorial/tree/main/2-Authorization-I/call-graph)
+ - Manage customer, consumer, and citizen access to your business-to-consumer (B2C) applications by Azure Active Directory B2C. [Azure-Samples/azure-spring-boot-samples/aad/spring-cloud-azure-starter-active-directory/aad-web-application-and-resource-server](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/aad/spring-cloud-azure-starter-active-directory/aad-web-appliction-and-resource-server)
 
 ## Integration
 
 ### Service Bus
- - [spring-on-azure-samples-service-bus](.)
+ - Sending and receiving messages by Service Bus in Spring Boot application. 
+   - [Azure-Samples/azure-spring-boot-samples/servicebus](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/servicebus)
+   - [Azure-Samples/spring-jms-service-bus](https://github.com/Azure-Samples/spring-jms-service-bus)
 
 ## Security
 
 ### Azure Key Vault
- - [spring-on-azure-samples-azure-key-vault](.)
+ - Managing secrets by Azure Key Vault Secret in Spring Boot application. [Azure-Samples/azure-spring-boot-samples/keyvault](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/keyvault).
+ - Enable https in Spring Boot application by certificates stored in Azure Key Vault. [Azure-Samples/azure-spring-boot-samples/keyvault](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/keyvault)
 
 ## Storage
 
 ### Azure Files
- - [spring-on-azure-samples-azure-files](.)
+ - Use Spring Resource abstraction to read and write data in Azure Files.[Azure-Samples/azure-spring-boot-samples/.../storage-file-sample](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/storage/spring-cloud-azure-starter-storage-file-share/storage-file-sample)
 
 ### Queue Storage
- - [spring-on-azure-samples-queue-storage](.)
+ - Sending and receiving messages by Azure Queue Storage in Spring Boot application. [Azure-Samples/azure-spring-boot-samples/.../storage-queue-integration](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/storage/spring-cloud-azure-starter-integration-storage-queue/storage-queue-integration)
 
 ### Azure Blob Storage
- - [spring-on-azure-samples-azure-blob-storage](.)
+ - Use Spring Resource abstraction to read and write data in Azure Storage Blob. [Azure-Samples/azure-spring-boot-samples/.../storage-blob-sample](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/storage/spring-cloud-azure-starter-storage-blob/storage-blob-sample)
 
+# Samples Not Related to Specific Azure Product
 
+## Cloud Foundry
+ - Using Azure products for applications running in Cloud Foundry. [Azure-Samples/azure-spring-boot-samples/cloudfoundry](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/cloudfoundry/azure-cloud-foundry-service-sample)
+
+## Spring Native
+ - building native executables with Spring Cloud Azure libraries. [Azure-Samples/azure-spring-boot-samples/.../spring-native](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/spring-native)
+
+## Credential Free
+ - Connecting to Azure services using a credential-free way. [Azure-Samples/azure-spring-boot-samples/.../credential-free](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/credential-free)
+
+## Spring Microservices end to end sample
+ - Developing and running a Spring Boot based microservices application on Azure Spring Apps.
+   - [Azure-Samples/azure-spring-boot-samples/spring-petclinic-microservices](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/spring-petclinic-microservices)
+   - [Azure-Samples/spring-petclinic-microservices](https://github.com/Azure-Samples/spring-petclinic-microservices)
+   - [Azure-Samples/azure-spring-cloud](https://github.com/Azure-Samples/azure-spring-cloud) 
+   - [Azure-Samples/pet-clinic-jar](https://github.com/Azure-Samples/pet-clinic-jar)
+   - [microsoft/csu-digiapps-cm-java_on_springcloud](https://github.com/microsoft/csu-digiapps-cm-java_on_springcloud)
