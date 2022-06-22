@@ -106,8 +106,12 @@ If you have any questions, you can ask for help by [creating a new issue](https:
  - Sending and receiving messages by Service Bus in Spring Boot application.
    - Via autoconfigured SDK client. (Sample does not exist, need to add this sample)
    - Via Spring JMS.
-     - First In, First Out (FIFO) message delivery to one or more competing consumers. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/servicebus/spring-cloud-azure-starter-servicebus-jms/servicebus-jms-queue), [link(this can be archived)](https://github.com/Azure-Samples/spring-jms-service-bus/tree/master/spring-jms-service-bus-queue-sample)
-     - One-to-many communication in a `publish and subscribe` pattern. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/servicebus/spring-cloud-azure-starter-servicebus-jms/servicebus-jms-topic), [link(this can be archived)](https://github.com/Azure-Samples/spring-jms-service-bus/tree/master/spring-jms-service-bus-topic-sample)
+     - First In, First Out (FIFO) message delivery to one or more competing consumers.
+       - [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/servicebus/spring-cloud-azure-starter-servicebus-jms/servicebus-jms-queue)
+       - [link](https://github.com/Azure-Samples/spring-jms-service-bus/tree/master/spring-jms-service-bus-queue-sample) (TODO: Delete this sample. In this sample's README, add link to above sample.)
+     - One-to-many communication in a `publish and subscribe` pattern.
+       - [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/servicebus/spring-cloud-azure-starter-servicebus-jms/servicebus-jms-topic)
+       - [link](https://github.com/Azure-Samples/spring-jms-service-bus/tree/master/spring-jms-service-bus-topic-sample) (TODO: Delete this sample. In this sample's README, add link to above sample.)
    - Via Spring Cloud Stream
      - Single Binder.
        - First In, First Out (FIFO) message delivery to one or more competing consumers.
