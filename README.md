@@ -12,7 +12,17 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 ## Analytics
 
 ### Event Hubs
- - Produce and consume message by Event Hubs in Spring Boot application. [Azure-Samples/azure-spring-boot-samples/eventhubs](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs)
+ - Produce and consume message by Event Hubs in Spring Boot application.
+   - Via autoconfigured SDK client. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter-eventhubs/eventhubs-client)
+   - Via Spring Cloud Stream.
+     - Via spring-cloud-stream-binder-kafka. 
+       - Single binder. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter/spring-cloud-azure-sample-eventhubs-kafka)
+       - Multiple binder. (Now this sample does not exist. Need to determine whether we need to provide this sample)
+     - Via spring-cloud-azure-stream-binder-eventhubs.
+       - Single binder. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-binder)
+       - Multiple binder. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-multibinders)
+   - Via Spring Integration.
+     - Via spring-integration-event-hubs. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter-integration-eventhubs/eventhubs-integration)
 
 ## Compute
 
