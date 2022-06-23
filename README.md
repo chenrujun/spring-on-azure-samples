@@ -12,19 +12,34 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 ## Analytics
 
 ### Event Hubs
+Display style 1:
  - Produce and consume message by Event Hubs in Spring Boot application.
-   - Via autoconfigured SDK client. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter-eventhubs/eventhubs-client)
+   - [Via autoconfigured SDK client.link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter-eventhubs/eventhubs-client)
    - Via Spring JMS. (Sample does not exist because Spring Cloud Azure does not support this feature. It is possible to implement this feature in Spring Cloud Azure. Refs: [link](https://github.com/Azure-Samples/event-hubs-java-storm-sender-jms-receiver/blob/master/Java/SenderViaJMS/src/EHSender.java). Spring Cloud Azure team don't have plan to implement this because there is no customer ask for this.)
    - Via Spring Cloud Stream.
      - Via spring-cloud-stream-binder-kafka. 
-       - Single binder. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter/spring-cloud-azure-sample-eventhubs-kafka)
+       - [Single binder.](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter/spring-cloud-azure-sample-eventhubs-kafka)
        - Multiple binder. (Not provide this sample because it's will not demonstrate Spring Cloud Azure's feature.)
      - Via spring-cloud-azure-stream-binder-eventhubs.
-       - Single binder. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-binder)
-       - Multiple binder. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-multibinders)
+       - [Single binder.](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-binder)
+       - [Multiple binder.](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-multibinders)
    - Via Spring Integration.
-     - Single namespace. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter-integration-eventhubs/eventhubs-integration)
+     - [Single namespace.](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter-integration-eventhubs/eventhubs-integration)
      - Multiple namespace. (Sample does not exist, need to add this sample.)
+
+Display style 2:
+  - [Produce and consume message by Event Hubs in Spring Boot application via autoconfigured SDK client.](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter-eventhubs/eventhubs-client)
+  - Produce and consume message by Event Hubs in Spring Boot application via Spring JMS. (Sample does not exist because Spring Cloud Azure does not support this feature. It is possible to implement this feature in Spring Cloud Azure. Refs: [link](https://github.com/Azure-Samples/event-hubs-java-storm-sender-jms-receiver/blob/master/Java/SenderViaJMS/src/EHSender.java). Spring Cloud Azure team don't have plan to implement this because there is no customer ask for this.)
+  - [Produce and consume message by Event Hubs in Spring Boot application via spring-cloud-stream-binder-kafka single binder.](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter/spring-cloud-azure-sample-eventhubs-kafka)
+  - Produce and consume message by Event Hubs in Spring Boot application via spring-cloud-stream-binder-kafka multiple binder. (Not provide this sample because it's will not demonstrate Spring Cloud Azure's feature.)
+  - [Produce and consume message by Event Hubs in Spring Boot application via spring-cloud-azure-stream-binder-eventhubs single binder.](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-binder)
+  - [Produce and consume message by Event Hubs in Spring Boot application via spring-cloud-azure-stream-binder-eventhubs multiple binder](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-multibinders)
+  - [Produce and consume message by Event Hubs in Spring Boot application via Spring Integration single namespace.](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter-integration-eventhubs/eventhubs-integration)
+  - Produce and consume message by Event Hubs in Spring Boot application via Spring Integration multiple namespace. (Sample does not exist, need to add this sample.)
+
+Cons of Display style 2:
+1. Title name too long.
+2. Customer may not sure which one to learn because he does not have a whole picture of all these samples.
 
 ## Compute
 
