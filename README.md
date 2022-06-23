@@ -43,11 +43,8 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 
 ## Containers
 
-### Azure Kubernetes Service (AKS) 
- - Accessing Azure Cosmos DB in Spring Boot application deployed in Azure Kubernetes Service. [link](https://github.com/Azure-Samples/cosmosdb-springboot-aks)
-
-### Azure Container Instances
- - Deploying Spring application to Azure Container Instances. [link](https://github.com/Azure/spring-boot-container-quickstart)
+### Azure Kubernetes Service (AKS)
+ - Accessing Azure Cosmos DB in Spring Boot application deployed in Azure Kubernetes Service. [link](https://github.com/Azure-Samples/cosmosdb-springboot-aks) 
 
 ## Databases
 
@@ -57,8 +54,8 @@ If you have any questions, you can ask for help by [creating a new issue](https:
  - Accessing Azure Cosmos DB by Spring Data Cassandra. [link](https://github.com/Azure-Samples/spring-data-cassandra-on-azure) 
  - Accessing Azure Cosmos DB by Spring Data Cosmos.
    - [link](https://github.com/Azure-Samples/spring-data-cosmosdb-e2e-sample/blob/main/core/pom.xml)
-   - [link](https://github.com/microsoft/spring-todo-app)
-   - [link](https://github.com/microsoft/todo-app-java-on-azure)
+   - [link](https://github.com/microsoft/spring-todo-app) (TODO: Delete this sample. In this sample's README, add link to above sample.)
+   - [link](https://github.com/microsoft/todo-app-java-on-azure)  (TODO: Delete this sample. In this sample's README, add link to above sample.)
 
 ### Azure Database for MySQL
  - Accessing Azure Database for MySQL by Spring Data JDBC. [link](https://github.com/Azure-Samples/spring-data-jdbc-on-azure)
