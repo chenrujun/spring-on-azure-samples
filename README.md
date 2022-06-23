@@ -113,8 +113,6 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 
 ### Service Bus
 
-### Service Bus Queue
-
 | Name                                                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1. [Produce/Consume by **Spring JMS**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/servicebus/spring-cloud-azure-starter-servicebus-jms/servicebus-jms-queue)                   |
