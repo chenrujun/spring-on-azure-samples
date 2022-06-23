@@ -12,48 +12,32 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 ## Analytics
 
 ### Event Hubs
-Display style 1:
- - Produce and consume message by Event Hubs in Spring Boot application.
-   - [Via autoconfigured SDK client.link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter-eventhubs/eventhubs-client)
-   - Via Spring JMS. (Sample does not exist because Spring Cloud Azure does not support this feature. It is possible to implement this feature in Spring Cloud Azure. Refs: [link](https://github.com/Azure-Samples/event-hubs-java-storm-sender-jms-receiver/blob/master/Java/SenderViaJMS/src/EHSender.java). Spring Cloud Azure team don't have plan to implement this because there is no customer ask for this.)
-   - Via Spring Cloud Stream.
-     - Via spring-cloud-stream-binder-kafka. 
-       - [Single binder.](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter/spring-cloud-azure-sample-eventhubs-kafka)
-       - Multiple binder. (Not provide this sample because it's will not demonstrate Spring Cloud Azure's feature.)
-     - Via spring-cloud-azure-stream-binder-eventhubs.
-       - [Single binder.](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-binder)
-       - [Multiple binder.](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-multibinders)
-   - Via Spring Integration.
-     - [Single namespace.](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter-integration-eventhubs/eventhubs-integration)
-     - Multiple namespace. (Sample does not exist, need to add this sample.)
 
-Display style 2:
-  - [Produce and consume message by Event Hubs in Spring Boot application via autoconfigured SDK client.](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter-eventhubs/eventhubs-client)
-  - Produce and consume message by Event Hubs in Spring Boot application via Spring JMS. (Sample does not exist because Spring Cloud Azure does not support this feature. It is possible to implement this feature in Spring Cloud Azure. Refs: [link](https://github.com/Azure-Samples/event-hubs-java-storm-sender-jms-receiver/blob/master/Java/SenderViaJMS/src/EHSender.java). Spring Cloud Azure team don't have plan to implement this because there is no customer ask for this.)
-  - [Produce and consume message by Event Hubs in Spring Boot application via spring-cloud-stream-binder-kafka single binder.](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter/spring-cloud-azure-sample-eventhubs-kafka)
-  - Produce and consume message by Event Hubs in Spring Boot application via spring-cloud-stream-binder-kafka multiple binder. (Not provide this sample because it's will not demonstrate Spring Cloud Azure's feature.)
-  - [Produce and consume message by Event Hubs in Spring Boot application via spring-cloud-azure-stream-binder-eventhubs single binder.](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-binder)
-  - [Produce and consume message by Event Hubs in Spring Boot application via spring-cloud-azure-stream-binder-eventhubs multiple binder](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-multibinders)
-  - [Produce and consume message by Event Hubs in Spring Boot application via Spring Integration single namespace.](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter-integration-eventhubs/eventhubs-integration)
-  - Produce and consume message by Event Hubs in Spring Boot application via Spring Integration multiple namespace. (Sample does not exist, need to add this sample.)
-
-Cons of Display style 2:
-1. Title name too long.
-2. Customer may not sure which one to learn because he does not have a whole picture of all these samples.
+| Name                                                                                                                                                                                                                                                                                        |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. [Consume and Produce with **Spring Boot** and **Azure SDK**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter-eventhubs/eventhubs-client)                                                                  | 
+| 2. [Consume and Produce with **Spring Cloud Stream** and **Kafka API**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter/spring-cloud-azure-sample-eventhubs-kafka)                                           |
+| 3. [Consume and Produce with **Spring Cloud Stream** and **EventHubs API**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-binder)                                                |
+| 4. [Consume and Produce with **Spring Integration**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter-integration-eventhubs/eventhubs-integration)                                                            |
+| 5. [Using Spring Cloud Stream Binder for Multiple Event Hubs Namespaces]([analytics/eventhubs/send-event/README.md](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-multibinders)) | 
 
 ## Compute
 
 ### Azure Spring Apps
- - Deploying Spring Boot apps using Azure Spring Apps and Spring Cloud Gateway. [link](https://github.com/Azure-Samples/animal-rescue)
- - Managing Azure Spring Apps in Java [link](https://github.com/Azure-Samples/app-platform-java-manage-spring-cloud)
- - Automated blue-green deployment for Azure Spring Apps. [link](https://github.com/Azure-Samples/azure-spring-cloud-blue-green)
- - Various features in Azure Spring Cloud. [link](https://github.com/Azure-Samples/Azure-Spring-Cloud-Samples)
- - Using Service Connector to connect to Apache Kafka in Spring Boot application deployed in Azure Spring Apps. [link](https://github.com/Azure-Samples/serviceconnector-springcloud-confluent-springboot)
- - Using Service Connector to Azure Database for My SQL in Spring Boot application deployed in Azure Spring Apps. [link](https://github.com/Azure-Samples/serviceconnector-springcloud-mysql-springboot)
- - Secure Communications Using End-to-end TLS/SSL in Azure Spring Apps. [link](https://github.com/Azure-Samples/spring-boot-secure-communications-using-end-to-end-tls-ssl)
- - Deploy Microservices and Spring Cloud Gateway using Azure Spring Cloud and Redis Cache. [link](https://github.com/Azure-Samples/spring-cloud-gateway)
- - Azure Spring Apps training. [link](https://github.com/microsoft/azure-spring-cloud-training)
- - Migrating Spring Applications to Azure Spring Apps. [link](https://github.com/microsoft/migrate-spring-apps-to-azure-training)
+
+#### Azure Spring Apps - Simple Samples
+ - [Managing Azure Spring Apps in Java](https://github.com/Azure-Samples/app-platform-java-manage-spring-cloud)
+ - [Automated blue-green deployment for Azure Spring Apps](https://github.com/Azure-Samples/azure-spring-cloud-blue-green)
+ - [Using Service Connector to connect to Apache Kafka in Spring Boot application deployed in Azure Spring Apps](https://github.com/Azure-Samples/serviceconnector-springcloud-confluent-springboot)
+ - [Using Service Connector to Azure Database for My SQL in Spring Boot application deployed in Azure Spring Apps](https://github.com/Azure-Samples/serviceconnector-springcloud-mysql-springboot)
+ - [Secure Communications Using End-to-end TLS/SSL in Azure Spring Apps](https://github.com/Azure-Samples/spring-boot-secure-communications-using-end-to-end-tls-ssl)
+ - [Migrating Spring Applications to Azure Spring Apps](https://github.com/microsoft/migrate-spring-apps-to-azure-training)
+
+#### Azure Spring Apps - End to End Samples
+ - [animal-rescue](https://github.com/Azure-Samples/animal-rescue)
+ - [spring-cloud-gateway](https://github.com/Azure-Samples/spring-cloud-gateway)
+ - [azure-spring-cloud-training](https://github.com/microsoft/azure-spring-cloud-training)
+ - [Azure-Spring-Cloud-Samples](https://github.com/Azure-Samples/Azure-Spring-Cloud-Samples) // This can be flattened in this portal page, but it will be hard to maintain this page if flattened in this portal page.
 
 
 ## Containers
