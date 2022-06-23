@@ -26,18 +26,31 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 ### Azure Spring Apps
 
 #### Azure Spring Apps - Simple Samples
- - [Managing Azure Spring Apps in Java](https://github.com/Azure-Samples/app-platform-java-manage-spring-cloud)
- - [Automated blue-green deployment for Azure Spring Apps](https://github.com/Azure-Samples/azure-spring-cloud-blue-green)
- - [Using Service Connector to connect to Apache Kafka in Spring Boot application deployed in Azure Spring Apps](https://github.com/Azure-Samples/serviceconnector-springcloud-confluent-springboot)
- - [Using Service Connector to Azure Database for My SQL in Spring Boot application deployed in Azure Spring Apps](https://github.com/Azure-Samples/serviceconnector-springcloud-mysql-springboot)
- - [Secure Communications Using End-to-end TLS/SSL in Azure Spring Apps](https://github.com/Azure-Samples/spring-boot-secure-communications-using-end-to-end-tls-ssl)
- - [Migrating Spring Applications to Azure Spring Apps](https://github.com/microsoft/migrate-spring-apps-to-azure-training)
+| Name                                                                                                                                                                                                              |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. [Accessing **Azure Key Vault** Using **System-Assigned Managed Identity**](https://github.com/Azure-Samples/Azure-Spring-Cloud-Samples/blob/master/managed-identity-keyvault)                                  |
+| 2. [Accessing **Azure Storage Blob** Using **System-Assigned Managed Identity**](https://github.com/Azure-Samples/Azure-Spring-Cloud-Samples/blob/master/managed-identity-storage-blob)                           |
+| 3. [Accessing **Azure Cosmos DB Mongo** Using **Service Binding**](https://github.com/Azure-Samples/Azure-Spring-Cloud-Samples/blob/master/service-binding-cosmosdb-mongo)                                        |
+| 4. [Accessing **Azure Cosmos DB SQL** Using **Service Binding**](https://github.com/Azure-Samples/Azure-Spring-Cloud-Samples/blob/master/service-binding-cosmosdb-sql)                                            |
+| 5. [Accessing **Azure Database for MySQL** Using Service Binding](https://github.com/Azure-Samples/Azure-Spring-Cloud-Samples/blob/master/service-binding-mysql)                                                  |
+| 6. [Accessing **Azure Database for MySQL** Using **Service Connector**](https://github.com/Azure-Samples/serviceconnector-springcloud-mysql-springboot)                                                           |
+| 7. [Accessing **Azure Cache for Redis** Using **Service Binding**](https://github.com/Azure-Samples/Azure-Spring-Cloud-Samples/blob/master/service-binding-redis)                                                 |
+| 8. [Accessing **Apache Kafka** Using **Service Connector** ](https://github.com/Azure-Samples/serviceconnector-springcloud-confluent-springboot)                                                                  |
+| 9. [Accessing **Azure Spring Cloud Managed Config Server** for Apps Outside **Azure Spring Apps**](https://github.com/Azure-Samples/Azure-Spring-Cloud-Samples/blob/master/custom-config-server-client)           |
+| 10. [Accessing **Azure Spring Cloud Managed Spring Cloud Service Registry** for Apps Outside **Azure Spring Apps**](https://github.com/Azure-Samples/Azure-Spring-Cloud-Samples/blob/master/custom-eureka-client) |
+| 11. [Using Temporary and Persistent Storage in **Azure Spring Apps**](https://github.com/Azure-Samples/Azure-Spring-Cloud-Samples/blob/master/storage-sample)                                                     |
+| 12. [Managing **Azure Spring Apps** in Java](https://github.com/Azure-Samples/app-platform-java-manage-spring-cloud)                                                                                              |
+| 13. [Automating Blue-Green Deployment](https://github.com/Azure-Samples/azure-spring-cloud-blue-green)                                                                                                            |
+| 14. [Securing Communications Using End-To-End TLS/SSL](https://github.com/Azure-Samples/spring-boot-secure-communications-using-end-to-end-tls-ssl)                                                               |
+| 15. [Migrating Spring Applications to **Azure Spring Apps**](https://github.com/microsoft/migrate-spring-apps-to-azure-training)                                                                                  |
+| 16. [Using spring-cloud-gateway](https://github.com/Azure-Samples/spring-cloud-gateway)                                                                                                                           |
+
 
 #### Azure Spring Apps - End to End Samples
- - [animal-rescue](https://github.com/Azure-Samples/animal-rescue)
- - [spring-cloud-gateway](https://github.com/Azure-Samples/spring-cloud-gateway)
- - [azure-spring-cloud-training](https://github.com/microsoft/azure-spring-cloud-training)
- - [Azure-Spring-Cloud-Samples](https://github.com/Azure-Samples/Azure-Spring-Cloud-Samples) // This can be flattened in this portal page, but it will be hard to maintain this page if flattened in this portal page.
+| Name                                                                                           |
+|------------------------------------------------------------------------------------------------|
+| 1. [Animal Rescue](https://github.com/Azure-Samples/animal-rescue)                             |
+| 2. [**Azure Spring Cloud** Training](https://github.com/microsoft/azure-spring-cloud-training) |
 
 
 ## Containers
