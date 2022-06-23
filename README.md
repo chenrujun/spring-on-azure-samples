@@ -13,13 +13,13 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 
 ### Event Hubs
 
-| Name                                                                                                                                                                                                                                                                                        |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. [Consume and Produce with **Spring Boot** and **Azure SDK**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter-eventhubs/eventhubs-client)                                                                  | 
-| 2. [Consume and Produce with **Spring Cloud Stream** and **Kafka API**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter/spring-cloud-azure-sample-eventhubs-kafka)                                           |
-| 3. [Consume and Produce with **Spring Cloud Stream** and **EventHubs API**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-binder)                                                |
-| 4. [Consume and Produce with **Spring Integration**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter-integration-eventhubs/eventhubs-integration)                                                            |
-| 5. [Using Spring Cloud Stream Binder for Multiple Event Hubs Namespaces]([analytics/eventhubs/send-event/README.md](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-multibinders)) | 
+| Name                                                                                                                                                                                                                                                |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. [Produce/Consume by **Azure SDK**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter-eventhubs/eventhubs-client)                                                    | 
+| 2. [Produce/Consume by **Spring Cloud Stream** and **Kafka API**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter/spring-cloud-azure-sample-eventhubs-kafka)         |
+| 3. [Produce/Consume by **Spring Cloud Stream** and **EventHubs API**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-binder)              |
+| 4. [Produce/Consume by **Spring Integration**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-starter-integration-eventhubs/eventhubs-integration)                          |
+| 5. [Using **Spring Cloud Stream Binder** for Multiple Event Hubs Namespaces](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/eventhubs/spring-cloud-azure-stream-binder-eventhubs/eventhubs-multibinders) | 
 
 ## Compute
 
@@ -43,7 +43,7 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 | 13. [Automating Blue-Green Deployment](https://github.com/Azure-Samples/azure-spring-cloud-blue-green)                                                                                                            |
 | 14. [Securing Communications Using End-To-End TLS/SSL](https://github.com/Azure-Samples/spring-boot-secure-communications-using-end-to-end-tls-ssl)                                                               |
 | 15. [Migrating Spring Applications to **Azure Spring Apps**](https://github.com/microsoft/migrate-spring-apps-to-azure-training)                                                                                  |
-| 16. [Using spring-cloud-gateway](https://github.com/Azure-Samples/spring-cloud-gateway)                                                                                                                           |
+| 16. [Using Spring Cloud Gateway](https://github.com/Azure-Samples/spring-cloud-gateway)                                                                                                                           |
 
 
 #### Azure Spring Apps - End to End Samples
@@ -112,25 +112,16 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 ## Integration
 
 ### Service Bus
- - Sending and receiving messages by Service Bus in Spring Boot application.
-   - Via autoconfigured SDK client. (Sample does not exist, need to add this sample)
-   - Via Spring JMS.
-     - First In, First Out (FIFO) message delivery to one or more competing consumers.
-       - [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/servicebus/spring-cloud-azure-starter-servicebus-jms/servicebus-jms-queue)
-       - [link](https://github.com/Azure-Samples/spring-jms-service-bus/tree/master/spring-jms-service-bus-queue-sample) (TODO: Delete this sample. In this sample's README, add link to above sample.)
-     - One-to-many communication in a `publish and subscribe` pattern.
-       - [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/servicebus/spring-cloud-azure-starter-servicebus-jms/servicebus-jms-topic)
-       - [link](https://github.com/Azure-Samples/spring-jms-service-bus/tree/master/spring-jms-service-bus-topic-sample) (TODO: Delete this sample. In this sample's README, add link to above sample.)
-   - Via Spring Cloud Stream
-     - Single Binder.
-       - First In, First Out (FIFO) message delivery to one or more competing consumers.
-         - Authenticate by token credential. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/servicebus/spring-cloud-azure-stream-binder-servicebus/servicebus-queue-binder)
-         - Authenticate by connection-string retried from ARM. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/servicebus/spring-cloud-azure-stream-binder-servicebus/servicebus-queue-binder-arm) (This sample is added because there is customer ask)
-       - One-to-many communication in a `publish and subscribe` pattern. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/servicebus/spring-cloud-azure-stream-binder-servicebus/servicebus-topic-binder)
-     - Multiple Binder. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/servicebus/spring-cloud-azure-stream-binder-servicebus/servicebus-multibinders)
-   - Via Spring Integration
-     - Single namespace. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/servicebus/spring-cloud-azure-starter-integration-servicebus/single-namespace)
-     - Multiple namespace. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/servicebus/spring-cloud-azure-starter-integration-servicebus/multiple-namespaces)
+
+### Service Bus Queue
+
+| Name                                                                                                                                                                                                                          |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. [Produce/Consume by **Spring JMS**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/servicebus/spring-cloud-azure-starter-servicebus-jms/servicebus-jms-queue)                   |
+| 2. [Produce/Consume by **Spring Cloud Stream**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/servicebus/spring-cloud-azure-stream-binder-servicebus/servicebus-queue-binder)     |
+| 3. [Produce/Consume and Publish/Subscribe by **Spring Integration**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/servicebus/spring-cloud-azure-starter-integration-servicebus/) |
+| 4. [Publish/Subscribe by **Spring JMS**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/servicebus/spring-cloud-azure-starter-servicebus-jms/servicebus-jms-topic)                 |
+| 5. [Publish/Subscribe by **Spring Cloud Stream**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_v4.2.0/servicebus/spring-cloud-azure-stream-binder-servicebus/servicebus-topic-binder/)  |
 
 ## Security
 
