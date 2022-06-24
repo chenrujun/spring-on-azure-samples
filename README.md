@@ -91,9 +91,9 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 ### Azure Cache for Redis
 
 #### Azure Cache for Redis - Simple Samples
-| Name                                                                                                                                                                                               |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Accessing by Spring Cache Abstraction](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/cache/spring-cloud-azure-starter/spring-cloud-azure-sample-cache) |
+| Name                                                                                                                                                                                                   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Accessing by **Spring Cache Abstraction**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/cache/spring-cloud-azure-starter/spring-cloud-azure-sample-cache) |
 
 #### Azure Cache for Redis - End to End Samples
 | Name                                                |
@@ -103,7 +103,11 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 ## Developer tools
 
 ### App Configuration
-- Configure, store, and retrieve parameters and settings by Azure App Configuration in Spring Boot application. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/appconfiguration)
+| Name                                                                                                                                                                                                        |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Accessing by **Azure SDK**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/appconfiguration/spring-cloud-azure-starter-appconfiguration/appconfiguration-client) |
+| [Accessing by **Spring PropertySource Abstraction**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/appconfiguration/azure-appconfiguration-refresh-sample)       |
+| [Accessing by **Feature Management**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/appconfiguration/feature-management-web-sample)                              |
 
 ## Identity
 
