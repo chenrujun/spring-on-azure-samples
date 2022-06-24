@@ -56,7 +56,9 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 ## Containers
 
 ### Azure Kubernetes Service (AKS)
- - [Accessing **Azure Cosmos DB (SQL API)** by Key](https://github.com/Azure-Samples/cosmosdb-springboot-aks) 
+| Name                                                                                                          |
+|---------------------------------------------------------------------------------------------------------------|
+| 1. [Accessing **Azure Cosmos DB (SQL API)** by Key](https://github.com/Azure-Samples/cosmosdb-springboot-aks) |
 
 ## Databases
 
@@ -68,46 +70,46 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 | 3. [Accessing by **Spring Data** and **Cassandra API**](https://github.com/Azure-Samples/spring-data-cassandra-on-azure)                                                                            |
 
 ### Azure Database for MySQL
-| Name                                                                                                      |
-|-----------------------------------------------------------------------------------------------------------|
-| [Accessing by **Spring Data JDBC**](https://github.com/Azure-Samples/quickstart-spring-data-jdbc-mysql)   |
-| [Accessing by **Spring Data R2DBC**](https://github.com/Azure-Samples/quickstart-spring-data-r2dbc-mysql) |
-| [Accessing by **Spring Data Jpa**](https://github.com/Azure-Samples/quickstart-spring-data-jpa-mysql)     |
+| Name                                                                                                         |
+|--------------------------------------------------------------------------------------------------------------|
+| 1. [Accessing by **Spring Data JDBC**](https://github.com/Azure-Samples/quickstart-spring-data-jdbc-mysql)   |
+| 2. [Accessing by **Spring Data R2DBC**](https://github.com/Azure-Samples/quickstart-spring-data-r2dbc-mysql) |
+| 3. [Accessing by **Spring Data Jpa**](https://github.com/Azure-Samples/quickstart-spring-data-jpa-mysql)     |
 
 ### Azure Database for PostgreSQL
-| Name                                                                                                           |
-|----------------------------------------------------------------------------------------------------------------|
-| [Accessing by **Spring Data JDBC**](https://github.com/Azure-Samples/quickstart-spring-data-jdbc-postgresql)   |
-| [Accessing by **Spring Data R2DBC**](https://github.com/Azure-Samples/quickstart-spring-data-r2dbc-postgresql) |
-| [Accessing by **Spring Data Jpa**](hhttps://github.com/Azure-Samples/quickstart-spring-data-jpa-postgresql)    |
+| Name                                                                                                              |
+|-------------------------------------------------------------------------------------------------------------------|
+| 1. [Accessing by **Spring Data JDBC**](https://github.com/Azure-Samples/quickstart-spring-data-jdbc-postgresql)   |
+| 2. [Accessing by **Spring Data R2DBC**](https://github.com/Azure-Samples/quickstart-spring-data-r2dbc-postgresql) |
+| 3. [Accessing by **Spring Data Jpa**](hhttps://github.com/Azure-Samples/quickstart-spring-data-jpa-postgresql)    |
 
 ### Azure SQL Server
-| Name                                                                                                           |
-|----------------------------------------------------------------------------------------------------------------|
-| [Accessing by **Spring Data JDBC**](https://github.com/Azure-Samples/quickstart-spring-data-jdbc-sql-server)   |
-| [Accessing by **Spring Data R2DBC**](https://github.com/Azure-Samples/quickstart-spring-data-r2dbc-sql-server) |
-| [Accessing by **Spring Data Jpa**](https://github.com/Azure-Samples/quickstart-spring-data-jpa-sql-server)     |
+| Name                                                                                                              |
+|-------------------------------------------------------------------------------------------------------------------|
+| 1. [Accessing by **Spring Data JDBC**](https://github.com/Azure-Samples/quickstart-spring-data-jdbc-sql-server)   |
+| 2. [Accessing by **Spring Data R2DBC**](https://github.com/Azure-Samples/quickstart-spring-data-r2dbc-sql-server) |
+| 3. [Accessing by **Spring Data Jpa**](https://github.com/Azure-Samples/quickstart-spring-data-jpa-sql-server)     |
 
 ### Azure Cache for Redis
 
 #### Azure Cache for Redis - Simple Samples
-| Name                                                                                                                                                                                                   |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Accessing by **Spring Cache Abstraction**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/cache/spring-cloud-azure-starter/spring-cloud-azure-sample-cache) |
+| Name                                                                                                                                                                                                      |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. [Accessing by **Spring Cache Abstraction**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/cache/spring-cloud-azure-starter/spring-cloud-azure-sample-cache) |
 
 #### Azure Cache for Redis - End to End Samples
-| Name                                                |
-|-----------------------------------------------------|
-| [Brewdis](https://github.com/Azure-Samples/brewdis) |
+| Name                                                   |
+|--------------------------------------------------------|
+| 1. [Brewdis](https://github.com/Azure-Samples/brewdis) |
 
 ## Developer tools
 
 ### App Configuration
-| Name                                                                                                                                                                                                        |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Accessing by **Azure SDK**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/appconfiguration/spring-cloud-azure-starter-appconfiguration/appconfiguration-client) |
-| [Accessing by **Spring PropertySource Abstraction**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/appconfiguration/azure-appconfiguration-refresh-sample)       |
-| [Accessing by **Feature Management**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/appconfiguration/feature-management-web-sample)                              |
+| Name                                                                                                                                                                                                           |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. [Accessing by **Azure SDK**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/appconfiguration/spring-cloud-azure-starter-appconfiguration/appconfiguration-client) |
+| 2. [Accessing by **Spring PropertySource Abstraction**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/appconfiguration/azure-appconfiguration-refresh-sample)       |
+| 3. [Accessing by **Feature Management**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/appconfiguration/feature-management-web-sample)                              |
 
 ## Identity
 
