@@ -61,13 +61,11 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 ## Databases
 
 ### Azure Cosmos DB
- - Using Azure Cosmos DB in Spring Boot application. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/cosmos)
- - Accessing Azure Cosmos DB by Java SQL API modules. [link](https://github.com/Azure-Samples/azure-spring-data-cosmos-java-sql-api-getting-started)
- - Accessing Azure Cosmos DB by Spring Data Cassandra. [link](https://github.com/Azure-Samples/spring-data-cassandra-on-azure) 
- - Accessing Azure Cosmos DB by Spring Data Cosmos.
-   - [link](https://github.com/Azure-Samples/spring-data-cosmosdb-e2e-sample/blob/main/core/pom.xml)
-   - [link](https://github.com/microsoft/spring-todo-app) (TODO: Delete this sample. In this sample's README, add link to above sample.)
-   - [link](https://github.com/microsoft/todo-app-java-on-azure)  (TODO: Delete this sample. In this sample's README, add link to above sample.)
+| Name                                                                                                                                                                                                                              |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. [Accessing **Azure Cosmos DB (SQL API)** by **Azure SDK**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/cosmos/spring-cloud-azure-starter-cosmos/spring-cloud-azure-cosmos-sample) |
+| 2. [Accessing **Azure Cosmos DB (SQL API)** by **Spring Data**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/cosmos/azure-spring-data-cosmos)                                         |
+| 3. [Accessing **Azure Cosmos DB (Cassandra API)** by **Spring Data**](https://github.com/Azure-Samples/spring-data-cassandra-on-azure)                                                                                            |
 
 ### Azure Database for MySQL
  - Accessing Azure Database for MySQL by Spring Data JDBC. [link](https://github.com/Azure-Samples/spring-data-jdbc-on-azure)
