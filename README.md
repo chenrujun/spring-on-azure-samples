@@ -68,20 +68,30 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 | 3. [Accessing **Azure Cosmos DB (Cassandra API)** by **Spring Data**](https://github.com/Azure-Samples/spring-data-cassandra-on-azure)                                                                                            |
 
 ### Azure Database for MySQL
- - Accessing Azure Database for MySQL by Spring Data JDBC. [link](https://github.com/Azure-Samples/spring-data-jdbc-on-azure)
- - Accessing Azure Database for MySQL by Spring Data Jpa. [link](https://github.com/Azure-Samples/spring-data-jpa-on-azure)
+| Name                                                                                                                                   |
+|----------------------------------------------------------------------------------------------------------------------------------------|
+| [Accessing **Azure Database for MySQL** by **Spring Data JDBC**](https://github.com/Azure-Samples/quickstart-spring-data-jdbc-mysql)   |
+| [Accessing **Azure Database for MySQL** by **Spring Data R2DBC**](https://github.com/Azure-Samples/quickstart-spring-data-r2dbc-mysql) |
+| [Accessing **Azure Database for MySQL** by **Spring Data Jpa**](https://github.com/Azure-Samples/quickstart-spring-data-jpa-mysql)     |
 
 ### Azure Database for PostgreSQL
- - Accessing Azure Database for PostgreSQL by Spring Data JDBC. [link](https://github.com/Azure-Samples/spring-data-jdbc-on-azure)
- - Accessing Azure Database for PostgreSQL by Spring Data Jpa. [link](https://github.com/Azure-Samples/spring-data-jpa-on-azure)
+| Name                                                                                                                                             |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Accessing **Azure Database for PostgreSQL** by **Spring Data JDBC**](https://github.com/Azure-Samples/quickstart-spring-data-jdbc-postgresql)   |
+| [Accessing **Azure Database for PostgreSQL** by **Spring Data R2DBC**](https://github.com/Azure-Samples/quickstart-spring-data-r2dbc-postgresql) |
+| [Accessing **Azure Database for PostgreSQL** by **Spring Data Jpa**](hhttps://github.com/Azure-Samples/quickstart-spring-data-jpa-postgresql)    |
+
+### Azure SQL Server
+| Name                                                                                                                                |
+|-------------------------------------------------------------------------------------------------------------------------------------|
+| [Accessing **Azure SQL Server** by **Spring Data JDBC**](https://github.com/Azure-Samples/quickstart-spring-data-jdbc-sql-server)   |
+| [Accessing **Azure SQL Server** by **Spring Data R2DBC**](https://github.com/Azure-Samples/quickstart-spring-data-r2dbc-sql-server) |
+| [Accessing **Azure SQL Server** by **Spring Data Jpa**](https://github.com/Azure-Samples/quickstart-spring-data-jpa-sql-server)     |
 
 ### Azure Cache for Redis
  - Caching data in Spring Boot application by Azure Cache for Redis. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/cache/spring-cloud-azure-starter/spring-cloud-azure-sample-cache)
  - Using RedisSearch feature provided by Azure Cache for Redis in Spring Boot app, and deploy app to Azure Spring Apps. [link](https://github.com/Azure-Samples/brewdis)
 
-### Azure SQL
- - Accessing Azure SQL by Spring Data JDBC. [link](https://github.com/Azure-Samples/spring-data-jdbc-on-azure)
- - Accessing Azure SQL by Spring Data JPA. [link](https://github.com/Azure-Samples/spring-data-jpa-on-azure)
 
 ## Developer tools
 
