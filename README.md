@@ -89,9 +89,16 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 | [Accessing **Azure SQL Server** by **Spring Data Jpa**](https://github.com/Azure-Samples/quickstart-spring-data-jpa-sql-server)     |
 
 ### Azure Cache for Redis
- - Caching data in Spring Boot application by Azure Cache for Redis. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/cache/spring-cloud-azure-starter/spring-cloud-azure-sample-cache)
- - Using RedisSearch feature provided by Azure Cache for Redis in Spring Boot app, and deploy app to Azure Spring Apps. [link](https://github.com/Azure-Samples/brewdis)
 
+#### Azure Cache for Redis - Simple Samples
+| Name                                                                                                                                                                                               |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Accessing by Spring Cache Abstraction](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/cache/spring-cloud-azure-starter/spring-cloud-azure-sample-cache) |
+
+#### Azure Cache for Redis - End to End Samples
+| Name                                                |
+|-----------------------------------------------------|
+| [Brewdis](https://github.com/Azure-Samples/brewdis) |
 
 ## Developer tools
 
