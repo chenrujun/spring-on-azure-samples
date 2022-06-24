@@ -180,10 +180,16 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 # Samples Not Related to Specific Azure Product
 
 ## Cloud Foundry
- - Using Azure products for applications running in Cloud Foundry. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/cloudfoundry/azure-cloud-foundry-service-sample)
+| Name                                                                                                                                                                                     |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. [Accessing Azure Products in Cloud Foundry](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/cloudfoundry/azure-cloud-foundry-service-sample) |
 
 ## Spring Native
- - building native executables with Spring Cloud Azure libraries. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/spring-native)
+| Name                                                                                                                                       |
+|--------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. [Developing Spring Native apps](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/spring-native) |
 
 ## Credential Free
- - Connecting to Azure services using a credential-free way. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/credential-free)
+| Name                                                                                                                                                      |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. [Accessing Azure Products Without Passwords](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/credential-free) |
