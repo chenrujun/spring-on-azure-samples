@@ -114,23 +114,23 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 ## Identity
 
 ### Azure Active Directory (Azure AD)
- - Login Spring Boot web application by Microsoft school or work account. 
-   - [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/aad/spring-cloud-azure-starter-active-directory/aad-web-appliction-and-resource-server)
-   - [link](https://github.com/Azure-Samples/ms-identity-java-spring-tutorial/tree/main/1-Authentication)
- - Access control by App rules in Spring Boot web application after logging by Microsoft school or work account.
-   - [link](https://github.com/Azure-Samples/ms-identity-docs-code-java/tree/main/webapp)
-   - [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/aad/spring-cloud-azure-starter-active-directory/aad-web-appliction-and-resource-server)
-   - [link](https://github.com/Azure-Samples/ms-identity-java-spring-tutorial/tree/main/3-Authorization-II)
- - Protect web api by working as OAuth2 resource server protected Azure Active Directory. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/aad/spring-cloud-azure-starter-active-directory/aad-web-appliction-and-resource-server)
- - Access control in web api protected by Azure Active Directory. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/aad/spring-cloud-azure-starter-active-directory/aad-web-appliction-and-resource-server)
- - Access OAuth2 resource server protected by Azure Active Directory.
-   - [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/aad/spring-cloud-azure-starter-active-directory/aad-web-appliction-and-resource-server)
-   - [link](https://github.com/Azure-Samples/ms-identity-docs-code-java/tree/main/access-protected-api)
-   - [link](https://github.com/Azure-Samples/ms-identity-docs-code-java/tree/main/access-protected-api-obo)
-   - [link](https://github.com/Azure-Samples/ms-identity-java-spring-tutorial/tree/main/2-Authorization-I/call-graph)
- - Manage customer, consumer, and citizen access to your business-to-consumer (B2C) applications by Azure Active Directory B2C. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/aad/spring-cloud-azure-starter-active-directory/aad-web-appliction-and-resource-server)
+| Name                                                                                                                                                                                                            |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. [Login Web App](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/aad/spring-cloud-azure-starter-active-directory/aad-web-appliction-and-resource-server)             |
+| 2. [Access Control in Web App](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/aad/spring-cloud-azure-starter-active-directory/aad-web-appliction-and-resource-server) |                                                                                                                                                                                                  
+| 3. [Secure Web Api](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/aad/spring-cloud-azure-starter-active-directory/aad-web-appliction-and-resource-server)            | 
+| 4. [Access Control in Web Api](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/aad/spring-cloud-azure-starter-active-directory/aad-web-appliction-and-resource-server) |
+| 5. [Web App access Web Api](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/aad/spring-cloud-azure-starter-active-directory/aad-web-appliction-and-resource-server)    |
+| 6. [Web Api access Web Api](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/aad/spring-cloud-azure-starter-active-directory/aad-web-appliction-and-resource-server)    |
 
-## Integration
+### Azure Active Directory B2C (Azure AD B2C)
+| Name                                                                                                                                                                         |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. [Login Web App](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/aad/spring-cloud-azure-starter-active-directory-b2c)             |
+| 2. [Secure Web Api](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/aad/spring-cloud-azure-starter-active-directory-b2c)            |
+| 3. [Access Control in Web Api](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/aad/spring-cloud-azure-starter-active-directory-b2c) |
+
+ ## Integration
 
 ### Service Bus
 
