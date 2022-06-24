@@ -56,7 +56,7 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 ## Containers
 
 ### Azure Kubernetes Service (AKS)
- - Accessing Azure Cosmos DB in Spring Boot application deployed in Azure Kubernetes Service. [link](https://github.com/Azure-Samples/cosmosdb-springboot-aks) 
+ - [Accessing **Azure Cosmos DB SQL** by Key](https://github.com/Azure-Samples/cosmosdb-springboot-aks) 
 
 ## Databases
 
