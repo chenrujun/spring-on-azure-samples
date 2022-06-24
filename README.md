@@ -145,8 +145,16 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 ## Security
 
 ### Azure Key Vault
- - Managing secrets by Azure Key Vault Secret in Spring Boot application. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/keyvault).
- - Enable https in Spring Boot application by certificates stored in Azure Key Vault. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/keyvault)
+
+### Azure Key Vault Secrets
+| Name                                                                                                                                                                                                |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. [Access by **Spring PropertySource Abstraction**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/keyvault/spring-cloud-azure-starter-keyvault-secrets) |
+
+### Azure Key Vault Certificates
+| Name                                                                                                                                                                                    |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. [Using Certificate To Enable TLS](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/keyvault/azure-spring-boot-starter-keyvault-certificates) |
 
 ## Storage
 
