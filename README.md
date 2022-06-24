@@ -173,21 +173,21 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 | 2. [Accessing by **Spring Integration**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/storage/spring-cloud-azure-starter-integration-storage-queue/storage-queue-integration) |
 
 ### Azure Blob Storage
-| Name                                                                                                                                                                                                        |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. [Accessing by Spring Resource Abstraction](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/storage/spring-cloud-azure-starter-storage-blob/storage-blob-sample) |
+| Name                                                                                                                                                                                                            |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. [Accessing by **Spring Resource Abstraction**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/storage/spring-cloud-azure-starter-storage-blob/storage-blob-sample) |
 
 # Samples Not Related to Specific Azure Product
 
 ## Cloud Foundry
-| Name                                                                                                                                                                                     |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. [Accessing Azure Products in Cloud Foundry](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/cloudfoundry/azure-cloud-foundry-service-sample) |
+| Name                                                                                                                                                                                         |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. [Accessing Azure Products in **Cloud Foundry**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/cloudfoundry/azure-cloud-foundry-service-sample) |
 
 ## Spring Native
-| Name                                                                                                                                       |
-|--------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. [Developing Spring Native apps](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/spring-native) |
+| Name                                                                                                                                           |
+|------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. [Developing **Spring Native** Apps](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/spring-native) |
 
 ## Credential Free
 | Name                                                                                                                                                      |
