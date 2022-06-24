@@ -159,13 +159,21 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 ## Storage
 
 ### Azure Files
- - Use Spring Resource abstraction to read and write data in Azure Files.[link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/storage/spring-cloud-azure-starter-storage-file-share/storage-file-sample)
+| Name                                                                                                                                                                                                              |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. [Accessing by Spring Resource Abstraction](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/storage/spring-cloud-azure-starter-storage-file-share/storage-file-sample) |
 
 ### Queue Storage
- - Sending and receiving messages by Azure Queue Storage in Spring Boot application. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/storage/spring-cloud-azure-starter-integration-storage-queue/storage-queue-integration)
+| Name                                                                                                                                                                                                                      |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. [Accessing by **Azure SDK**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/storage/spring-cloud-azure-starter-storage-queue/storage-queue-client)                           |
+| 1. [Accessing by **StorageQueueTemplate**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/storage/spring-cloud-azure-starter-integration-storage-queue/storage-queue-operation) |
+| 2. [Accessing by **Spring Integration**](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/storage/spring-cloud-azure-starter-integration-storage-queue/storage-queue-integration) |
 
 ### Azure Blob Storage
- - Use Spring Resource abstraction to read and write data in Azure Storage Blob. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/storage/spring-cloud-azure-starter-storage-blob/storage-blob-sample)
+| Name                                                                                                                                                                                                        |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. [Accessing by Spring Resource Abstraction](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/storage/spring-cloud-azure-starter-storage-blob/storage-blob-sample) |
 
 # Samples Not Related to Specific Azure Product
 
