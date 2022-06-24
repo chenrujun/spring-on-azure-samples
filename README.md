@@ -47,10 +47,12 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 
 
 #### Azure Spring Apps - End to End Samples
-| Name                                                                                           |
-|------------------------------------------------------------------------------------------------|
-| 1. [Animal Rescue](https://github.com/Azure-Samples/animal-rescue)                             |
-| 2. [**Azure Spring Cloud** Training](https://github.com/microsoft/azure-spring-cloud-training) |
+| Name                                                                                                                                            |
+|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. [Animal Rescue](https://github.com/Azure-Samples/animal-rescue)                                                                              |
+| 2. [Spring Pet Clinic](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/spring-petclinic-microservices) |
+| 3. [Piggy Metrics](https://github.com/Azure-Samples/azure-spring-cloud)                                                                         |
+| 4. [**Azure Spring Cloud** Training](https://github.com/microsoft/azure-spring-cloud-training)                                                  |
 
 
 ## Containers
@@ -185,11 +187,3 @@ If you have any questions, you can ask for help by [creating a new issue](https:
 
 ## Credential Free
  - Connecting to Azure services using a credential-free way. [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/credential-free)
-
-## Spring Microservices end to end sample
- - Developing and running a Spring Boot based microservices application on Azure Spring Apps.
-   - [link](https://github.com/Azure-Samples/azure-spring-boot-samples/tree/spring-cloud-azure_4.2.0/spring-petclinic-microservices)
-   - [link](https://github.com/Azure-Samples/spring-petclinic-microservices)
-   - [link](https://github.com/Azure-Samples/azure-spring-cloud) 
-   - [link](https://github.com/Azure-Samples/pet-clinic-jar)
-   - [link](https://github.com/microsoft/csu-digiapps-cm-java_on_springcloud)
